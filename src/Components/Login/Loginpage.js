@@ -19,7 +19,7 @@ const Loginpage = () => {
       navigate('/Main');
     } else {
       // Handle incorrect credentials or display an error message
-      console.log('Invalid credentials');
+      alert('Invalid credentials');
     }
   };
 
