@@ -1,6 +1,6 @@
 # Project Title
 
-Movie Streaming App
+Netflix-Clone App
 
 ## Live Demo
 
