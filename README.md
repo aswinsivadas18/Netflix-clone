@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Project Title
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Movie Streaming App
 
-## Available Scripts
+## Live Demo
 
-In the project directory, you can run:
+Visit the live demo: [Hosted Link]
 
-### `npm start`
+## Sample Login Details
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Email: user@myapp.com
+- Password: user123
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Table of Contents
+- [Description](#description)
+- [File Information](#file-information)
+- [Sample Login Details](#sample-login-details)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `npm test`
+## Description
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project is a movie streaming application that allows users to watch their favorite movies and TV shows online. Users can browse through a collection of trending movies, search for specific titles, and enjoy a seamless streaming experience.
 
-### `npm run build`
+## File Information
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Banner Component (`Banner.js`)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The Banner component displays a rotating banner on the homepage, showcasing trending movies and their details. It fetches movie data from an API and updates the banner content periodically.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Login Page (`Loginpage.js`)
 
-### `npm run eject`
+The Login Page component provides a user-friendly interface for users to log in to their accounts. Users can enter their email and password to access the streaming platform.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Row Post Component (`RowPost.js`)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The Row Post component displays a row of movie posters with their titles. Users can click on a poster to view additional details about the movie, and if available, watch a trailer.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Clone the repository: `git clone https://github.com/your-username/your-repo.git`
+2. Change into the project directory: `cd your-repo`
+3. Install dependencies: `npm install`
 
-## Learn More
+## Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Start the development server: `npm start`
+2. Open your web browser and navigate to `http://localhost:3000`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributing
 
-### Code Splitting
+If you'd like to contribute to this project, please follow these steps:
+1. Fork the repository.
+2. Create a new branch for your feature: `git checkout -b feature-name`
+3. Make your changes and commit them: `git commit -m "Add your message here"`
+4. Push to your branch: `git push origin feature-name`
+5. Create a pull request on the original repository.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## License
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the [MIT License](LICENSE).
