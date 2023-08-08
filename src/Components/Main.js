@@ -3,12 +3,13 @@ import NavBar from './NavBar/NavBar';
 import Banner from './Banner/Banner';
 import RowPost from './RowPost/RowPost';
 import { action, originals, horror, comedy, romance, documentary } from './Urls';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Footer from './Footer/Footer';
+import { BrowserRouter } from 'react-router-dom';
 
 const Main = () => {
   return (
     <div>
+    <BrowserRouter>
       <NavBar />
       <Banner />
       <RowPost url={action} title='Action' />
@@ -18,6 +19,7 @@ const Main = () => {
       <RowPost url={romance} title='Romance' isSmall />
       <RowPost url={documentary} title='Documentaries' isSmall />
       <Footer />
+      </BrowserRouter>
     </div>
   );
 };
