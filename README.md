@@ -1,6 +1,6 @@
 # Project Title
 
-Netflix-Clone App
+Netflix-Clone App 
 
 ## Live Demo
 
