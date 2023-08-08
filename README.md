@@ -4,7 +4,7 @@ Netflix-Clone App
 
 ## Live Demo
 
-Visit the live demo: [Hosted Link]
+Visit the live demo: [Hosted Link] https://netflix-clone-by-aswin.netlify.app/
 
 ## Sample Login Details
 
