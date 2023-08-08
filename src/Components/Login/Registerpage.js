@@ -16,7 +16,7 @@ const Registerpage = () => {
                         <input type="text" name="txt" placeholder="User name" required="" />
                         <input type="email" name="email" placeholder="Email" required="" />
                         <input type="password" name="pswd" placeholder="Password" required="" />
-                        <NavLink to='/Main' className='buttn'>Sign up</NavLink>
+                        <NavLink to='/' className='buttn'>Sign up</NavLink>
                     </form>
                 </div>
             </div>

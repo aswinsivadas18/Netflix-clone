@@ -1,9 +1,10 @@
-import React from 'react'
-import NavBar from './NavBar/NavBar'
-import Banner from './Banner/Banner'
-import RowPost from './RowPost/RowPost'
-import { action, originals, horror, comedy, romance, documentary } from './Urls'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import React from 'react';
+import NavBar from './NavBar/NavBar';
+import Banner from './Banner/Banner';
+import RowPost from './RowPost/RowPost';
+import { action, originals, horror, comedy, romance, documentary } from './Urls';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Footer from './Footer/Footer';
 
 const Main = () => {
   return (
@@ -16,8 +17,9 @@ const Main = () => {
       <RowPost url={comedy} title='Comedy' isSmall />
       <RowPost url={romance} title='Romance' isSmall />
       <RowPost url={documentary} title='Documentaries' isSmall />
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Main
+export default Main;

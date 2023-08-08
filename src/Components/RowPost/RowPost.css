@@ -59,3 +59,71 @@
   color: white;
   z-index: 0;
 }
+
+/* ...existing styles... */
+
+.youtube-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 900px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  z-index: 1000; /* Higher z-index to place it above other elements */
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: red;
+  border: none;
+  border-radius: 5%;
+  width: 80px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.close-button:hover {
+  background-color: darkred; /* Darker shade on hover */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .posters {
+    padding: 10px;
+  }
+
+  .poster {
+    max-height: 150px;
+    margin-right: 10px;
+  }
+
+  .text {
+    font-size: 14px;
+  }
+
+  .youtube-popup {
+    width: 90%;
+    max-width: 600px;
+    padding: 8px;
+  }
+
+  .close-button {
+    font-size: 14px;
+    width: 70px;
+    height: 24px;
+  }
+}
+
